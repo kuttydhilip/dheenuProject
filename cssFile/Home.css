@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home-navigations{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 139px;
+    background: #FFF;
+    color: #000;
+    
+}
+.Hotel_Icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.h,.d,.hotel-dheen{
+    width: 12px;
+    /* height: 37px; */
+    color: #1654B0;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+}
+.hotel-dheen{
+    width: 180px;
+    margin-left: 20px;
+    color: #000;    
+}
+.topnavright{
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+ul li{
+    display: flex;
+    justify-content: space-around;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    color: #000;
+    width: 120px;
+}
+.background-of-login{
+    display: flex;
+    justify-content: space-around;
+    background: #1C69DC;
+    border-radius: 6px;
+    border-color: #1C69DC;
+    padding: 8px 15px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 50px;
+    margin-right: 40px;
+}
+.profile{
+    border-radius: 22.276px;
+    border: 1px solid #000;
+    margin-right: 30px;
+}
