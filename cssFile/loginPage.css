@@ -1,0 +1,28 @@
+body{
+    background-color:#DDFEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.login-form{
+    width: 644px;
+    height: 766px;
+    margin-top: 108px;
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+   background-color:#ffffff;
+   padding: 20px;
+}
+#closePage{
+    display: flex;
+    /* position: absolute; */
+    /* top: 36px; */
+    /* right: 36px; */
+    justify-self: flex-end;
+    font-size: 20px;
+    align-items: end;
+}
